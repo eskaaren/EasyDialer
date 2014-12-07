@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                      android:layout_height="wrap_content"
+                      android:layout_width="fill_parent"
+                      android:orientation="vertical"
+                      android:weightSum="2"
+                      >
+    <LinearLayout
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent"
+            android:paddingBottom="20dp"
+            android:paddingTop="20dp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            android:layout_weight="1"
+        >
+    <EditText
+            android:id="@+id/textbox"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:focusable="false"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:maxLines="2"
+        />
+        <ImageButton android:id="@+id/arrowbutton"
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:src="@drawable/arrow"
+                     android:padding="5dp"
+                     android:scaleType="fitCenter"
+                     android:layout_weight="1"
+                     android:background="@android:color/transparent"
+                />
+        <ImageButton android:id="@+id/phonebutton"
+                     android:layout_height="wrap_content"
+                     android:layout_width="wrap_content"
+                     android:src="@drawable/phone"
+                     android:padding="5dp"
+                     android:scaleType="fitCenter"
+                     android:layout_weight="1"
+                     android:background="@android:color/transparent"
+                />
+    </LinearLayout>
+
+        <LinearLayout
+                      android:layout_width="wrap_content"
+                      android:layout_height="fill_parent"
+                      android:orientation="horizontal"
+                      android:weightSum="3"
+                      android:layout_weight="1"
+        >
+<LinearLayout
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="4"
+        >
+    <ImageButton android:id="@+id/num1Button"
+                android:layout_height="wrap_content"
+                android:layout_width="fill_parent"
+                android:src="@drawable/num1"
+                android:padding="5dp"
+                android:scaleType="fitXY"
+                android:layout_weight="1"
+            />
+    <ImageButton android:id="@+id/num4Button"
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:src="@drawable/num4"
+                 android:padding="5dp"
+                 android:scaleType="fitXY"
+                 android:layout_weight="1"
+            />
+    <ImageButton android:id="@+id/num7Button"
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:src="@drawable/num7"
+                 android:padding="5dp"
+                 android:scaleType="fitXY"
+                 android:layout_weight="1"
+            />
+    <ImageButton android:id="@+id/numsButton"
+                 android:layout_height="wrap_content"
+                 android:layout_width="fill_parent"
+                 android:src="@drawable/nums"
+                 android:padding="5dp"
+                 android:scaleType="fitXY"
+                 android:layout_weight="1"
+            />
+</LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="4"
+            >
+        <ImageButton android:id="@+id/num2Button"
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:src="@drawable/num2"
+                     android:padding="5dp"
+                     android:scaleType="fitXY"
+                     android:layout_weight="1"
+                />
+        <ImageButton android:id="@+id/num5Button"
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:src="@drawable/num5"
+                     android:padding="5dp"
+                     android:scaleType="fitXY"
+                     android:layout_weight="1"
+                />
+        <ImageButton android:id="@+id/num8Button"
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:src="@drawable/num8"
+                     android:padding="5dp"
+                     android:scaleType="fitXY"
+                     android:layout_weight="1"
+                />
+        <ImageButton android:id="@+id/num0Button"
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:src="@drawable/num0"
+                     android:padding="5dp"
+                     android:scaleType="fitXY"
+                     android:layout_weight="1"
+                />
+    </LinearLayout>
+
+    <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:weightSum="4"
+            >
+        <ImageButton android:id="@+id/num3Button"
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:src="@drawable/num3"
+                     android:padding="5dp"
+                     android:scaleType="fitXY"
+                     android:layout_weight="1"
+                />
+        <ImageButton android:id="@+id/num6Button"
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:src="@drawable/num6"
+                     android:padding="5dp"
+                     android:scaleType="fitXY"
+                     android:layout_weight="1"
+                />
+        <ImageButton android:id="@+id/num9Button"
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:src="@drawable/num9"
+                     android:padding="5dp"
+                     android:scaleType="fitXY"
+                     android:layout_weight="1"
+                />
+        <ImageButton android:id="@+id/numpButton"
+                     android:layout_height="wrap_content"
+                     android:layout_width="fill_parent"
+                     android:src="@drawable/nump"
+                     android:padding="5dp"
+                     android:scaleType="fitXY"
+                     android:layout_weight="1"
+                />
+
+    </LinearLayout>
+
+</LinearLayout>
+</LinearLayout>

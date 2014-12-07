@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_height="wrap_content"
+              android:layout_width="fill_parent"
+              android:orientation="vertical"
+              android:weightSum="2"
+        >
+    <LinearLayout android:layout_height="wrap_content"
+                  android:layout_width="fill_parent"
+                  android:orientation="horizontal"
+                  android:background="@android:color/background_light">
+        <Button android:id="@+id/dialTab2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Dial"/>
+        <Button android:id="@+id/histTab2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="History"/>
+    </LinearLayout>
+
+</LinearLayout>
